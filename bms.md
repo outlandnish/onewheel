@@ -40,6 +40,11 @@ show_sidebar: false
   * Datasheet: [2629492.pdf](assets/2629492.pdf)
   * ![](images/bms_xr_2.0.5_3920r.jpg)
 
+### Connectors
+* Amass XT60PW connectors for battery / controller power (note reversed polarity for battery connector)
+* JAE ES9 female (on PCB) / male (on wire) connector for charger cable
+* JST GH 5-position female header used for connector to controller
+
 ## Hardware version and PCB revision combinations
 
 Note: This is based on very small sample size. (Currently about 10 boards.)
