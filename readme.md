@@ -1,6 +1,6 @@
 # OneWheel technical info
 
-Visit the site: [https://radimklaska.github.io/onewheel/](https://radimklaska.github.io/onewheel/)
+Visit the site: [https://klaska.net/onewheel](https://klaska.net/onewheel)
 
 # What to expect
 
@@ -18,3 +18,10 @@ This is in no way a tutorial to do anything. I'm not responsible for any damage 
 OneWheel is a registered trademark of Future Motion, Inc.
 
 I'm not affiliated with Future Motion. I just love the product they make. :)
+
+## Run site locally
+
+* See: https://jekyllrb.com/docs/#instructions
+* `git clone git@github.com:radimklaska/onewheel.git`
+* `cd onewheel`
+* `bundle exec jekyll serve`
