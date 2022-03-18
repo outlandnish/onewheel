@@ -43,7 +43,10 @@ show_sidebar: false
 ### Connectors
 * Amass XT60PW connectors for battery / controller power (note reversed polarity for battery connector)
 * JAE ES9 female (on PCB) / male (on wire) connector for charger cable
+  * [https://www.digikey.com/catalog/en/partgroup/es9-series/47166](https://www.digikey.com/catalog/en/partgroup/es9-series/47166)
+  * [https://www.digikey.com/catalog/en/partgroup/es9-series/47164](https://www.digikey.com/catalog/en/partgroup/es9-series/47164)
 * JST GH 5-position female header used for connector to controller
+  * [https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM05B-GHS-TBT-LF-SN-N/807803](https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM05B-GHS-TBT-LF-SN-N/807803)
 
 ## Hardware version and PCB revision combinations
 
