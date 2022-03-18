@@ -27,3 +27,7 @@ Site is based on https://github.com/chrisrhymes/bulma-clean-theme theme.
 * `git clone git@github.com:radimklaska/onewheel.git`
 * `cd onewheel`
 * `bundle exec jekyll serve`
+
+# Contributors
+
+![](contributors.svg)

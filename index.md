@@ -29,3 +29,7 @@ I'm a fan of open source and open hardware. The Right to Repair is very relevant
 * [https://repair.eu/](https://repair.eu/)
 * [https://www.repair.org/](https://www.repair.org/)
 * [https://www.ifixit.com/Right-to-Repair/Intro](https://www.ifixit.com/Right-to-Repair/Intro)
+
+# Contributors
+
+![](contributors.svg)
