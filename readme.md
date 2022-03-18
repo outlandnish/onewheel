@@ -21,6 +21,8 @@ I'm not affiliated with Future Motion. I just love the product they make. :)
 
 ## Run site locally
 
+Site is based on https://github.com/chrisrhymes/bulma-clean-theme theme.
+
 * See: https://jekyllrb.com/docs/#instructions
 * `git clone git@github.com:radimklaska/onewheel.git`
 * `cd onewheel`
