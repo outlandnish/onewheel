@@ -1,6 +1,9 @@
-# OneWheel technical info
-
-Visit the site: [https://klaska.net/onewheel](https://klaska.net/onewheel)
+---
+title: OneWheel technical info
+subtitle: A deep dive into OneWheel internals
+layout: page
+show_sidebar: false
+---
 
 # What to expect
 
@@ -19,11 +22,10 @@ OneWheel is a registered trademark of Future Motion, Inc.
 
 I'm not affiliated with Future Motion. I just love the product they make. :)
 
-## Run site locally
+# Right to Repair
 
-Site is based on https://github.com/chrisrhymes/bulma-clean-theme theme.
+I'm a fan of open source and open hardware. The Right to Repair is very relevant in this context.
 
-* See: https://jekyllrb.com/docs/#instructions
-* `git clone git@github.com:radimklaska/onewheel.git`
-* `cd onewheel`
-* `bundle exec jekyll serve`
+* [https://repair.eu/](https://repair.eu/)
+* [https://www.repair.org/](https://www.repair.org/)
+* [https://www.ifixit.com/Right-to-Repair/Intro](https://www.ifixit.com/Right-to-Repair/Intro)

@@ -1,0 +1,20 @@
+- name: XR
+  link: /info-xr/
+- name: Pint
+  link: /info-pint/
+- name: Part numbers
+  link: /partnumbers/
+- name: Charger
+  link: /info-charger/
+- name: BMS
+  link: /bms/
+- name: BMS Firmware
+  link: /bms-firmware/
+- name: Projects
+  link: /projects/
+- name: How to
+  link: /howto/
+- name: Credits
+  link: /credits/
+- name: Repair services
+  link: /repairs/
