@@ -17,7 +17,12 @@ show_sidebar: false
   * [https://www.digikey.com/products/en?KeyWords=PIC16F1788-I/ML](https://www.digikey.com/products/en?KeyWords=PIC16F1788-I/ML)
   * ![](images/bms_xr_2.0.5_16f1788.jpg)
 * `PROG1` pinout:
-  * ![](images/bms_xr_2.0.5_PROG1.png)  
+  * ![](images/bms_xr_2.0.5_PROG1.png)
+* `SN65HVD1786` RS-485 Transceiver (IC5 Marking)
+  * Datasheet: [sn65hvd1786.pdf](assets/sn65hvd1786.pdf)
+  * [https://eu.mouser.com/ProductDetail/595-SN65HVD1786DR](https://cz.mouser.com/ProductDetail/595-SN65HVD1786DR)
+  * Connected to UART on PIC16
+  * Differential Pair connected to 6-Pin Connecter
 * `MAX14921` battery measurement analog front-end
   * controlled by an SPI interface
   * Datasheet: [MAX14920-MAX14921.pdf](assets/MAX14920-MAX14921.pdf)
@@ -39,6 +44,7 @@ show_sidebar: false
 * `3920R 1L00 1% 1846` current sense resistor
   * Datasheet: [2629492.pdf](assets/2629492.pdf)
   * ![](images/bms_xr_2.0.5_3920r.jpg)
+
 
 ### Connectors
 * Amass XT60PW connectors for battery / controller power (note reversed polarity for battery connector)
