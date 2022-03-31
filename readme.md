@@ -1,78 +1,33 @@
-# [Onewheel Charger](https://tomashubelbauer.github.io/onewheel-charger)
+# OneWheel technical info
 
-## Onewheel Pint Home Charger
+Visit the site: [https://klaska.net/onewheel](https://klaska.net/onewheel)
 
-63 V NMC battery charger
+# What to expect
 
-- Input: 100-240 Vac, 50/60 Hz, 1 A, 100 VA
-- Output: 63 Vdc, 1.3 A
+I was not able to find much of detailed info about OneWheel internals. My aim is to make this site a "go-to" resource for anyone trying to understand and/or fix their OneWheel by aggregating bits of details I was able to scour the internet for or research myself. (See Credits.)
 
-Connector (2 pin female mini DIN / GX12-2) pinout:
+# Help
 
-![](pint.svg)
+* If you have time, please help by extending this page: [https://github.com/radimklaska/onewheel](https://github.com/radimklaska/onewheel)
+* If you have money, please motivate me to extend this page: [https://github.com/sponsors/radimklaska](https://github.com/sponsors/radimklaska)
 
-Voltage measurements across pairs of leads:
+# Disclaimer
 
-| - | + | Result  |
-|---|---|---------|
-| 1 | 2 | -63 Vdc |
-| 2 | 1 | +63 Vdc |
+This is in no way a tutorial to do anything. I'm not responsible for any damage you cause by using this info. Even though I do my best to verify and double-check I'm not guaranteeing the correctness of the information aggregated in this repo.
 
-Found polarity:
+OneWheel is a registered trademark of Future Motion, Inc.
 
-1. 63 Vdc
-2. Ground
+I'm not affiliated with Future Motion. I just love the product they make. :)
 
-## Onewheel+ XR Home Charger
+## Run site locally
 
-63 V NMC battery charger
+Site is based on https://github.com/chrisrhymes/bulma-clean-theme theme.
 
-- Input: 100-240 Vac, 50/60 Hz, 300 VA
-- Output: 63 Vdc, 3 A
+* See: https://jekyllrb.com/docs/#instructions
+* `git clone git@github.com:radimklaska/onewheel.git`
+* `cd onewheel`
+* `bundle exec jekyll serve`
 
-Connector (3 pin female XLR) pinout:
+# Contributors
 
-![](xr.svg)
-
-Voltage measurements across pairs of leads:
-
-| - | + | Result  |
-|---|---|---------|
-| 1 | 2 | 63 Vdc  |
-| 1 | 3 | 63 Vdc  |
-| 2 | 1 | -63 Vdc |
-| 2 | 3 | 0 Vdc   |
-| 3 | 1 | -63 Vdc |
-| 3 | 2 | 0 Vdc   |
-
-Found polarity:
-
-1. Ground
-2. 63 Vdc
-3. 63 Vdc
-
-## Other Models
-
-The Onewheel+ is not NMC I don't think and the charger specs are
-58 Vdc / 3.5 A I think, the Onewheel+ XR ultracharger is probably
-63 Vdc / 5 A, but I don't know either of these, so I cannot verify
-these numbers.
-
-## Onewheel+ XR to Onewheel Pint Charger Adapter
-
-Connectors:
-
-- 3pin female XLR
-- 2pin female mini DIN
-
-Wiring:
-
-| Onewheel+ XR | Onewheel+ Pint |
-|--------------|----------------|
-| ![](xr.svg)  | ![](pint.svg)  |
-| 1            | 2              |
-| 2            | 1              |
-| 3            |                |
-
-If you do this and it wrecks your board, blame yourself, because I
-am not responsible for that.
+![](contributors.svg)
